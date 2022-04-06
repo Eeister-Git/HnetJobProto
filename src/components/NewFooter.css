@@ -1,0 +1,49 @@
+#page-container {
+    position: relative;
+    min-height: 90vh;
+  }
+
+.main-footer {
+  display: inline-flex;
+  flex-shrink: 0;
+  margin: auto;
+  width: 100vw;
+  background-color: #09503a;
+}
+
+
+.left{
+  margin-top: 1.5%;
+  margin-left: 1%;
+  float: left;
+  color: white;
+}
+
+.text{
+  margin-left: 5%;
+  font-size: small;
+}
+
+.right{
+  float: right;
+  padding-right: 1%;
+}
+
+#hnetlogofooter{
+  margin-top: 3%;
+  width:5%;
+  background-size: contain;
+  overflow:hidden;
+  background-repeat: no-repeat;
+  margin-left: 0%;
+  float: right;
+}
+
+#historylogofooter{
+  width:10%;
+  background-size: contain;
+  overflow:hidden;
+  background-repeat: no-repeat;
+  margin-left: 0%;
+  float: right;
+}

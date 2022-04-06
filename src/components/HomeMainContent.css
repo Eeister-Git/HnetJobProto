@@ -1,0 +1,80 @@
+p {
+  font-size: .875em; /* 14px/16=0.875em */
+}
+
+li {
+  font-size: .875em; /* 14px/16=0.875em */
+
+}
+
+.extra{
+  margin-top: 2%;
+  margin-bottom: 4%;
+}
+
+.col-sm-4{
+  border: 1px solid black;
+  height: 100%;
+  min-height: 100vh;
+  justify-content: center;
+}
+
+img{
+  display: block;
+  margin-top: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%
+}
+
+#logosquare
+{
+  margin-left: auto;
+}
+
+#one{
+  background-color: white;
+  margin-top: 1%;
+}
+
+#two{
+  background-color: white;
+
+}
+
+@media (max-width: 767px) {
+  .col-sm-4 {
+      width: 100%;
+  } 
+}
+
+.footer {
+  flex-shrink: 0;
+}
+
+.button {
+  background-color: #09503a; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-flex;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-left: 12%;
+  margin-right: 12%;
+}
+
+.hiddenItem {
+  opacity: 0;
+}
+
+.buttontext {
+  margin-top: -1%;
+  margin-left: 2%;
+  font-size: x-large;
+}
+
+.button4 {border-radius: 12px;}
