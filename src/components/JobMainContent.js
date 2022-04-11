@@ -83,6 +83,21 @@ function JobMainContent() {
           multiple
           search
           selection
+          clearable
+          options={options}
+          scrolling
+          />
+          <Dropdown
+          multiple
+          search
+          selection
+          options={options}
+          scrolling
+          />
+          <Dropdown
+          multiple
+          search
+          selection
           options={options}
           scrolling
           />
